@@ -1,0 +1,11 @@
+ul {
+    width: 2000px; 
+    overflow: hidden;
+    white-space:nowrap; 
+}
+li{
+    list-style: none;
+    float: left; 
+    margin-left: 15px;
+    width: 130px;
+}
