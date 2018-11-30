@@ -7,6 +7,15 @@ import { Student } from './student';
 
 })
 export class StudentComponent {
+    dataSet = [
+        {"id":0,"name":"张三"},
+        {"id":1,"name":"李四"},
+        {"id":2,"name":"王五"},
+      ]
+      bar(event:any){
+        console.log(event);
+      }
+
     me:Student[]=[{
         name:'admin',
         age:15,
